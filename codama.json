@@ -1,0 +1,11 @@
+{
+  "idl": "./anchor/target/idl/savings_vault.json",
+  "scripts": {
+    "js": [
+      {
+        "from": "@codama/renderers-js",
+        "args": ["./src/generated/savings-vault"]
+      }
+    ]
+  }
+}

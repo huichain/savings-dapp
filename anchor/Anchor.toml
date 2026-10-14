@@ -1,0 +1,13 @@
+[features]
+resolution = true
+skip-lint = false
+
+[programs.devnet]
+savings_vault = "HDrUXhCBtQZVWFsz7v6qqo1wncJppuMsnSA5rtwfnRp1"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "cargo test --workspace --locked"

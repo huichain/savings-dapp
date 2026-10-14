@@ -1,0 +1,8 @@
+node_modules/
+dist/
+anchor/target/
+anchor/.anchor/
+.env*
+!.env.example
+.DS_Store
+*.tsbuildinfo
